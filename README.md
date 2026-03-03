@@ -29,11 +29,14 @@ This project reflects real-world Android development standards and scalable proj
 
 ## ✨ Features
 
-- ✅ Add new tasks
+-- ✅ Add new tasks
 - ✏️ Edit tasks
 - 🗑 Delete tasks
 - ✔️ Mark tasks as completed
-- 📂 Create and manage task categories
+- 📂 Create and manage task cate
+- 🏷️ Task priority levels
+- ⏰ Reminder notifications
+- 🔍 Search & filteringgories
 - 💾 Persistent local storage using Room
 - ⚡ Optimized compilation using KSP
 - 🔄 Background task support (WorkManager)
@@ -43,17 +46,12 @@ This project reflects real-world Android development standards and scalable proj
 
 ## 📸 Screenshots
 
-### 🏠 Home Screen
-![Home Screen](screenshots/home_screen.jpeg)
-
-### ➕ Add Task Screen
-![Add Task Screen](screenshots/add_task_screen.jpeg)
-
-### 📂 Show Category Screen
-![Show Category Screen](screenshots/show_category_screen.jpeg)
-
-### ➕ Add Category Screen
-![Add Category Screen](screenshots/add_category_screen.jpeg)
+<p style="white-space: nowrap; overflow-x: auto; text-align: left;">
+  <img src="screenshots/home_screen.jpg" alt="Home Screen" style="height:300px; margin-right: 20px;">
+  <img src="screenshots/add_task_screen.jpg" alt="Add Task Screen" style="height:300px; margin-right: 20px;">
+  <img src="screenshots/show_category_screen.jpg" alt="Show Category Screen" style="height:300px; margin-right: 20px;">
+  <img src="screenshots/add_category_screen.jpg" alt="Add Category Screen" style="height:300px; margin-right: 20px;">
+</p>
 
 ---
 
@@ -77,35 +75,6 @@ Room database uses Kotlin Symbol Processing (KSP) for improved build performance
 WorkManager is used for background task execution.
 
 ---
-com.mahantkrupa.taskify
-│
-├── data
-│ ├── dao
-│ ├── database
-│ ├── entity
-│ ├── mechanism
-│ ├── repository
-│ ├── workmanager
-│
-├── di
-│ ├── AppModule.kt
-│ ├── DataModule.kt
-│ ├── UiModule.kt
-│
-├── ui
-│ ├── addTask
-│ ├── categories
-│ ├── edit
-│ ├── home
-│ ├── landingpage
-│ ├── maincontent
-│ ├── nav
-│ ├── theme
-│ ├── utils
-
-This modular structure ensures scalability, maintainability, and separation of concerns.
-
----
 
 ## 🛠 Tech Stack
 
@@ -123,23 +92,24 @@ This modular structure ensures scalability, maintainability, and separation of c
 
 ## 🚀 Future Improvements
 
-- Task priority levels
-- Reminder notifications
 - Dark mode support
 - Firebase cloud sync
 - Search & filtering
-
+- Analytics & task statistics
+- Daily/weekly summary notifications
+- Multi-device sync
+- Export tasks as PDF/CSV
+- Advanced search & filters
+  
 ---
 
 ## 👩‍💻 Author
 
 **Sangita Patel**  
 Android Developer (8+ Years Experience)  
-Founder – Mahant Krupa Technologies  
 
 ---
 
 ## ⭐ Show Your Support
 
 If you found this project helpful, please give it a ⭐ on GitHub.
-
